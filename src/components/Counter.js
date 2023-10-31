@@ -12,7 +12,7 @@ function Counter(){
 
     return (
         <div>
-            <h1>Counter:{counter}</h1>
+            <h1>{counter}</h1>
             <button onClick={()=> dispatch(increase())}>Increanse</button>
             <button onClick={()=>dispatch(decrease())}>Decreanse</button>
         </div>
